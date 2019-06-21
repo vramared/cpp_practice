@@ -41,14 +41,9 @@ private:
 };
 
 int main() {
-	/*Pet x = Pet("Barry");
-    printf("%s\n", x.getName().c_str());
-	x.setName("Hello");
-	printf("%s\n", x.getName().c_str()); */
-
     Dog d = Dog("Marta", 5);
     printf("%s\n", d.getName().c_str());
-	printf("%d\n", d.getAge());
+    printf("%d\n", d.getAge());
     d.setAge(10);
-	printf("%d\n", d.getAge());
+    printf("%d\n", d.getAge());
 }
